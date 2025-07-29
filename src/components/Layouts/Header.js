@@ -31,27 +31,15 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link as={Link} to="/">
-                Home
-              </Nav.Link>
-              <Nav.Link as={Link} to="/about">
-                About
-              </Nav.Link>
-              <Nav.Link as={Link} to="/menu">
-                Our Menu
-              </Nav.Link>
-              <Nav.Link as={Link} to="/shop">
-                Shop
-              </Nav.Link>
-              <Nav.Link as={Link} to="/blog">
-                Blog
-              </Nav.Link>
-              <Nav.Link as={Link} to="/contact">
-                Contact
-              </Nav.Link>
-              <Nav.Link as={Link} to="/">
+              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#menu">Our Menu</Nav.Link>
+              <Nav.Link href="#shop">Shop</Nav.Link>
+              <Nav.Link href="#blog">Blog</Nav.Link>
+              <Nav.Link href="#contact">Contact</Nav.Link>
+              <Nav.Link href="#cart">
                 <div className="cart">
-                  <i class="bi bi-bag fs-5"></i>
+                  <i className="bi bi-bag fs-5"></i>
                   <em className="roundpoint">2</em>
                 </div>
               </Nav.Link>

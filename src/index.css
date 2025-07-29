@@ -114,3 +114,6 @@ a {
   background: transparent;
   border-color: var(--light-red);
 }
+html {
+  scroll-behavior: smooth;
+}
