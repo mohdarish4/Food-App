@@ -106,3 +106,18 @@ header .roundpoint {
     padding: 1rem !important;
   }
 }
+/* Pointer for all nav links */
+.navbar-nav .nav-link {
+  cursor: pointer;
+}
+
+/* Pointer for logo */
+.logo img {
+  cursor: pointer;
+}
+
+/* Pointer for cart icon */
+.cart {
+  cursor: pointer;
+}
+
